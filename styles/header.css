@@ -1,0 +1,28 @@
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap'); /* HEADER FONT */
+
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Kirang Haerang', cursive;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.header-title {
+    display: inline;
+    font-size: 56px;
+}
+
+.header-subtitle {
+    display: inline;
+    font-size: 24px;
+}

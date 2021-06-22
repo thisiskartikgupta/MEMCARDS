@@ -1,0 +1,39 @@
+
+.card-grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(5, 16%);
+    grid-auto-rows: 100px;
+    margin: 2% 20%;
+    justify-content: center;
+    border: 11px ridge #FFD500;
+    padding: 20px 0px;
+}
+
+.card {
+    
+    background: url("card_side_back.png");
+    /* background: url("card_side_back.png"); */
+    border: 5px solid #FDC500;
+    margin: 8px;
+}
+
+.hidden-Card {
+    visibility: hidden;
+}
+
+.cardType0.front-facing {
+    background: url("1.png");
+}
+
+.cardType1.front-facing {
+    background: url("2.png");
+}
+
+.cardType2.front-facing {
+    background: url("3.png");
+}
+
+@media(min-width: 1366px) {
+
+}
