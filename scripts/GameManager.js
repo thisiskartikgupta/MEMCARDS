@@ -15,6 +15,7 @@ let score = 0;
 let cards = document.getElementsByClassName("card");
 let cardTypes= [];
 
+
 const allocateCardTypes = () => {
 
     const getRandomNumber = (min, max) => {
@@ -54,12 +55,15 @@ const allocateCardTypes = () => {
 allocateCardTypes();
 
 
-
+let numberOfMoves = 0;
 let cardsCanBeFlipped = true;
 let updateScore = true;
 
 for(let i = 0; i < cards.length; i++)
     cards[i].addEventListener("click", () => {
+        
+        numberOfMoves++;
+        document.getElementsByClassName("moves-container")[0].innerHTML = numberOfMoves;
 
         updateCardsCanBeFlipped(); 
         
@@ -90,7 +94,8 @@ const checkAndUpdateScore = () => {
     if(frontFacingCards.length === 2) {
 
         if(frontFacingCards[0].classList.value === frontFacingCards[1].classList.value) {
-            score++;
+            
+            score+= 10;
             console.log("SUCCESS ITS A MATCH ");
             document.getElementsByClassName("score-container")[0].innerHTML = score;
             

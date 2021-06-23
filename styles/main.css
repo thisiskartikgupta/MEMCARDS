@@ -52,6 +52,64 @@
     
 }
 
+@media(min-width: 600px) {
+
+    .card-grid-container {
+
+        display: grid;
+        grid-template-columns: repeat(6, 80px);
+        grid-auto-rows: 80px;
+        padding-bottom: 30px;
+    }
+
+    .card {
+        width: 75px;
+        height: 75px;
+    }
+
+    .performance-label {
+        padding: 10px 10px;
+    }
+}
+
+@media(min-width:1366px) {
+
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .performance-container {
+
+        width: 10%;
+        flex-direction: column;
+    }
+
+    .label {
+        max-width: 20%;
+    }
+}
+
+@media(min-width: 1920px) {
+
+    .card-grid-container {
+
+        display: grid;
+        grid-template-columns: repeat(6, 100px);
+        grid-auto-rows: 100px;
+        padding-bottom: 30px;
+    }
+
+    .card {
+        width: 90px;
+        height: 90px;
+    }
+
+    .performance-label {
+        padding: 10px 10px;
+    }
+}
+
 /*--------------------------------------------------------------------------------*/
 /*                                     DO NOT ALTER BELOW CSS                     */
 /*--------------------------------------------------------------------------------*/
@@ -191,7 +249,3 @@
 /*--------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------*/
 
-
-@media(min-width: 1366px) {
-
-}

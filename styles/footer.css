@@ -18,3 +18,12 @@
         width: 100%;
     }
 }
+
+@media (min-width:600px) and (min-height:730px) {
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
