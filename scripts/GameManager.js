@@ -1,7 +1,9 @@
 //TODO : Add performance section displaying - moves, accuracy, scores, and a timer . Some cumulative scoring mechanism will be add on.
 //TODO : Beautify with CSS and animations
+//TODO : Add sounds and finishing
+//TODO : Stats have colours
 
-alert("Website is still in BETA and there is a load of space for optimizations and improvements . Hence, depending on your device you may not have a pleasant experience.")
+// alert("Website is still in BETA and there is a load of space for optimizations and improvements . Hence, depending on your device you may not have a pleasant experience.")
 
 console.log("--------------------------------");
 console.log("|    HELLO CHEATER !! 👋👋     |");
